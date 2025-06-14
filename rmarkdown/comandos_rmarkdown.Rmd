@@ -1,0 +1,51 @@
+---
+title: "Comandos Rmarkdown"
+author: "Fenicio"
+date: "2025-03-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Títulos
+
+Se eu quiser criar um tópico com um título, devo utilizar o "#", de maneira que o número de hastags diminui o tamanho do texto. Exemplos:
+
+# 1
+## 2
+### 3
+#### 4
+##### 5
+###### 6
+
+### Negrito
+
+Para colocar um texto em negrito, devemos utilizar **dois asteriscos**!
+
+### Itálico
+
+Para colocar um texto em itálico, devemos utilizar *um asterisco*!
+
+### Criar listas
+
+Para criar uma lista numerada, basta escrever o número com um ponto do lado e dar espaço:
+
+1. Primeiro item
+2. Segundo item
+
+Para criar uma uma lista pinada, basta usar um asterisco com um espaço
+
+* Primeiro item
+* Segundo item
+
+### Para adicionar um link ao texto, podemos fazer da seguinte forma:
+A seguir, [temos um link para o meu linkedin](https://www.linkedin.com/in/fenicio-giglio/)
+
+### Pedaços de código
+
+Para adicionar um pedaço de código executável, basta clicar no botão "insert a new code chunk" ou escrever a estrutura
+```{r}
+```
+

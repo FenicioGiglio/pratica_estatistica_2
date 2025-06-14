@@ -1,0 +1,27 @@
+{
+    "id": "F196C3E2",
+    "path": "C:/Users/fenic/Desktop/arquivos_compilados/pm2.5/dashboard/server.R",
+    "project_path": "pm2.5/dashboard/server.R",
+    "type": "r_source",
+    "hash": "259705710",
+    "contents": "",
+    "dirty": false,
+    "created": 1749871327013.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "8,20",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1749871397,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1749871397536,
+    "read_only": false,
+    "read_only_alternatives": []
+}
