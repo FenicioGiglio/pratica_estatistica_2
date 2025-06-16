@@ -14,7 +14,7 @@ output:
 
 
 <div style="text-align: center;">
-# **Desempenho dos dados de material particulado<br>fino sobre a qualidade do ar em estudo<br>epidemiológico no Rio de Janeiro**
+# **Desempenho dos dados de material particulado<br>fino sobre a qualidade do ar em estudo<br>epidemiológico no Paraná**
 Fenicio Giglio - Estudante de Estatística, UFF \
 </div>
 \
