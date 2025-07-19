@@ -19,7 +19,6 @@ Fenicio Giglio - Estudante de Estatística, UFF \
 </div>
 \
 
-
 ### **Resumo**
 
 <span style="color:#0a558f">**Objetivo:**</span> Replicar artigo¹ feito pela professora Ludmilla, no qual tinha como objetivo avaliar o desempenho das concentrações de material particulado com diâmetro inferior a 2,5 μm (PM2,5) derivadas de satélite em comparação com medições de estações de monitoramento no município de Salvador. Nesse estudo, será feita a mesma comparação entre dois satélites, do CAMS² e do VonDonkelar³.
@@ -64,7 +63,7 @@ shapepr = read_sf("bases/PR_Municipios_2024/PR_Municipios_2024.shp")
 
 ### **Introdução**
 
-A poluição do ar é uma ameaça ambiental com múltiplos impactos para a saúde humana. A Organização Mundial da Saúde (OMS) chama a atenção para a carga de doença associada à poluição atmosférica. Milhões de mortes prematuras por acidente vascular cerebral, doenças cardíacas, câncer de pulmão e doenças respiratórias crônicas e agudas, incluindo asma, poderiam ser evitadas ao se reduzirem os níveis de poluição do ar. Populações vulneráveis, incluindo as crianças, idosos, gestantes e pessoas com doenças crônicas, estão em maior risco. Será, então, feita uma análise a fim de investigar esse problema no estado do Rio de Janeiro.
+A poluição do ar é uma ameaça ambiental com múltiplos impactos para a saúde humana. A Organização Mundial da Saúde (OMS) chama a atenção para a carga de doença associada à poluição atmosférica. Milhões de mortes prematuras por acidente vascular cerebral, doenças cardíacas, câncer de pulmão e doenças respiratórias crônicas e agudas, incluindo asma, poderiam ser evitadas ao se reduzirem os níveis de poluição do ar. Populações vulneráveis, incluindo as crianças, idosos, gestantes e pessoas com doenças crônicas, estão em maior risco. Será, então, feita uma análise a fim de investigar esse problema no estado do Paraná
 
 \
 
@@ -197,9 +196,6 @@ pr_longo <- pr_total |>
 ```
 
 Foram realizados dois testes T pareados, um para os dados mensais do estado do PR e outro para os dados por municípios do PR.\
-
-No primeiro, comparando as médias mensais do Rio, com 95% de confiança, <span style="color:#0a558f">**existem evidências suficientes para rejeitar $H_{0}$**</span>, já que o *p-valor* < 0.05. Além disso, a média das diferenças foi muito pequena (quase zero) e o intervalo de confiança inclui zero, indicando mais uma vez que a diferença não é estatísticamente significativa. \
-Já no segundo teste, comparando as médias municipais com 95% de cofiança, o *p-valor* também foi menor que 0.05, logo <span style="color:#0a558f">**há evidências para rejeitar $H_{0}$.** </span>
 
 ``` {r teste t} 
 # teste t mensal (1)
